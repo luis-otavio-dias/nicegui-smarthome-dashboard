@@ -21,8 +21,19 @@ python src/main.py
 - Monitoramento em tempo real do status dos dispositivos.
 - Interface amigável para fácil interação com o sistema.
 
-## Estrutura do Projeto
+## Organização do Projeto  
+  * Classes Organizadas em Pacotes:  
+      Estrutura do projeto compostas por classes cuidadosamente distribuídas em módulos e submódulos, facilitando a navegação e manutenção do código.
+  
+  * Recursos Intermediários:
+    * **Decorators**: Para adicionar funcionalidades às classes e métodos de maneira modular.
+    * **Closures**: Para manter o estado interno de funções.
+    * **Estruturas Assíncronas (async/await)**: Para lidar com operações que podem ser executadas de forma concorrente.
+    * **Tratamento Estruturado de Exceções**: Para garantir que o sistema seja robusto e trate erros de forma adequada.
+    * **Dataclasses**: Para simplificar a criação de classes que armazenam dados, tornando o código mais claro e fácil de entender.
 
+
+## Estrutura do Projeto 
 **src**/  
 ├── **core**/  
 │ ├── \_\_init\_\_.py  
@@ -32,9 +43,10 @@ python src/main.py
 ├── **models**/  
 │ ├── \_\_init\_\_.py  
 │ └── schemas.py # Dataclasses  
-├── **devices**/  
+├── **devices**/  # Classes e Async 
 │ ├── \_\_init\_\_.py  
-│ └── light.py # Classes e Async  
+│ └── light.py  
+│ └── voice_assistant.py 
 └── main.py # Ponto de entrada (NiceGUI)
 
 ## Explicação dos Módulos
