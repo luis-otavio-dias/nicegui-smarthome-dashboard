@@ -10,10 +10,10 @@ pip install -r requirements.txt
 ```
 
 ## Uso
-
 ```bash
 python src/main.py
 ```
+**obs: nicegui vai rodar na porta padrão (8080). Caso esteja ocupada no seu sistema, vá até `src/main.py` e em `ui.run(port=)` altere para outra porta.
 
 ## Funcionalidades
 
