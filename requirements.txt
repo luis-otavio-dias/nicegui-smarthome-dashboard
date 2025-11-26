@@ -10,7 +10,6 @@ bidict==0.23.1
 certifi==2025.11.12
 click==8.3.1
 docutils==0.22.3
--e file:///home/luisotavio/Desktop/Faculdade/empacotamento-recursos-com-nicegui
 fastapi==0.121.3
 frozenlist==1.8.0
 h11==0.16.0

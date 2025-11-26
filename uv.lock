@@ -189,17 +189,6 @@ wheels = [
 ]
 
 [[package]]
-name = "empacotamento-recursos-com-nicegui"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "nicegui" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "nicegui", specifier = ">=3.3.1" }]
-
-[[package]]
 name = "fastapi"
 version = "0.121.3"
 source = { registry = "https://pypi.org/simple" }
@@ -557,6 +546,17 @@ sdist = { url = "https://files.pythonhosted.org/packages/e3/ee/43ecb61be17b3487d
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d7/5c/fccb05fd8e9e9bdb5dd1531af1d40bcfbb3d7e850b2d43902ca117becde9/nicegui-3.3.1-py3-none-any.whl", hash = "sha256:7eb4e35936958c1df4b0fa6f5f4ed51d6e060c2938aca09b229abfec6b25e35e", size = 21007617, upload-time = "2025-11-17T10:24:13.13Z" },
 ]
+
+[[package]]
+name = "nicegui-smarthome-dashboard"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "nicegui" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "nicegui", specifier = ">=3.3.1" }]
 
 [[package]]
 name = "orjson"
