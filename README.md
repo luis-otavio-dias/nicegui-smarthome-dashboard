@@ -46,7 +46,7 @@ python src/main.py
 ├── **devices**/  # Classes e Async   
 │ ├── \_\_init\_\_.py  
 │ └── light.py  
-│ └── voice_assistant.py 
+│ └── voice_assistant.py  
 └── main.py # Ponto de entrada (NiceGUI)
 
 ## Explicação dos Módulos
