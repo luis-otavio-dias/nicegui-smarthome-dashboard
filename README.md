@@ -43,7 +43,7 @@ python src/main.py
 ├── **models**/  
 │ ├── \_\_init\_\_.py  
 │ └── schemas.py # Dataclasses  
-├── **devices**/  # Classes e Async 
+├── **devices**/  # Classes e Async   
 │ ├── \_\_init\_\_.py  
 │ └── light.py  
 │ └── voice_assistant.py 
